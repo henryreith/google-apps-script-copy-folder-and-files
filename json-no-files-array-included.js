@@ -51,6 +51,12 @@ function copyFolderStructure(sourceFolderId, destinationFolderId, newFolderName)
     totalFiles = createdFiles.length;
     totalSize = createdFiles.reduce((sum, file) => sum + file.size, 0);
 
+    // Create a files object with file names as keys
+    /* var filesObject = {};
+    createdFiles.forEach(file => {
+      filesObject[file.name] = file;
+    }); */
+
   } catch (error) {
     success = false;
     errors.push(error.toString());
@@ -72,6 +78,8 @@ function copyFolderStructure(sourceFolderId, destinationFolderId, newFolderName)
       folderCount: Object.keys(folderIdMap).length
     },
     folderStructure: folderStructure,
+    // files: filesObject,  // Files are also included in the file structure. Comment this out if you don't want to include a specific array of the files that have been created. This array's key is the file names. You can also comment out the function on lines 55 to 58 that creates this. 
+    // createdFiles: createdFiles,  // Files are also included in the file structure. Comment this out if you don't want to include a specific array of the files that have been created. This array's key is sequential numbers, e.g. 1, 2, 3 etc. 
     errors: errors
   };
 
@@ -234,10 +242,9 @@ function handleRequest(e) {
  */
 /*
 function testCopyFolderStructure() {
-  var sourceFolderId = '1c_AZq6-fnedwfdsfd'; // Your source folder
-  var destinationFolderId = '1Vu5a2dcdscd'; // Your destination folder
+  var sourceFolderId = '1c_AZq6de'; // Add your source folder ID here. 
+  var destinationFolderId = '1Vu5dewd'; // Add your destination folder ID here. 
   var newFolderName = '[] New Folder'; // Optional: set to null to use source folder name
   var result = copyFolderStructure(sourceFolderId, destinationFolderId, newFolderName);
   Logger.log(result);
-} 
-*/
+} */
