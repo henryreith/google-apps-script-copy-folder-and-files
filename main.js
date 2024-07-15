@@ -1,6 +1,6 @@
 // Configuration
 const CONFIG = {
-  API_KEY: 'API_KEY' // Replace with your actual API key
+  API_KEY: 'API_KEY' // Replace with your actual API key. This is a key you make up, not only generated in Google Apps Scripts, and help's increase the security of the script. 
 };
 
 /**
