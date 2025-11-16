@@ -84,15 +84,15 @@ You can now use this URL in any HTTP request module.
 ### Example Request Body:
 
 Provide a JSON object with the following keys.
-
-{ \
-  "apiKey": "pa$$wOrd!_123_abc-XYZ", \
-  "sourceFolderId": "1c_AZq6de...YOUR_SOURCE_ID...Yq9c", \
-  "destinationFolderId": "1Vu5dewd...YOUR_DESTINATION_ID..._b4", \
-  "newFolderName": "New Client Project (Copied)", \
-  "saveJsonOutput": true \
-} \
-
+```json
+{ 
+  "apiKey": "pa$$wOrd!_123_abc-XYZ", 
+  "sourceFolderId": "1c_AZq6de...YOUR_SOURCE_ID...Yq9c", 
+  "destinationFolderId": "1Vu5dewd...YOUR_DESTINATION_ID..._b4", 
+  "newFolderName": "New Client Project (Copied)", 
+  "saveJsonOutput": true 
+} 
+```
 
 
 
