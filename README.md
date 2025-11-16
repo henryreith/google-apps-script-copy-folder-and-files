@@ -1,4 +1,4 @@
-# Google Drive Folder/File Copy Script 
+# Google Drive Folder/File Copy Google Apps Script 
 ## How to Copy Entire Google Drive Folders with a Google Apps Script API
 
 This guide explains how to use the `CopyFolderStructure.gs` script to create a powerful API endpoint that can be called from automation platforms like Make.com, n8n, or any other service capable of making HTTP requests.
