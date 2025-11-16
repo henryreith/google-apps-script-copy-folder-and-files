@@ -45,8 +45,8 @@ It recursively:
     * **Good Key:** AcbV-!T4q-A$k9-zP!7-qYmR
     * **Bad Key:** my-api-key-123
 3. You can use a password generator to create a strong key.
+    * [Randon Generator](https://generate-random.org/encryption-keys)
     * [1Password Strong Password Generator](https://1password.com/password-generator/)
-    * [Cloudflare Strong Password Generator](https://www.google.com/search?q=https://www.cloudflare.com/password-generator/)
 4. Click the **Save** icon.
 
 
