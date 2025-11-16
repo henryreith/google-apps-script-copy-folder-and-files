@@ -1,0 +1,570 @@
+{
+  "success": true,
+  "timestamp": "2025-11-16T13:30:35.851Z",
+  "destinationRoot": {
+    "name": "01_Production",
+    "id": "122321231232asadse11111111",
+    "url": "https://drive.google.com/drive/folders/122321231232asadse11111111"
+  },
+  "mainFolder": {
+    "name": "My Test Copy Folder",
+    "id": "131CtiaS6tJyUmKD4n9heIJP_1bM5A_iz",
+    "url": "https://drive.google.com/drive/folders/131CtiaS6tJyUmKD4n9heIJP_1bM5A_iz"
+  },
+  "summary": {
+    "totalFiles": 18,
+    "totalSize": 17,
+    "totalSizeHuman": "17 Bytes",
+    "folderCount": 49,
+    "executionTime": "83.64 seconds"
+  },
+  "folderStructure": {
+    "name": "My Test Copy Folder",
+    "id": "131CtiaS6tJyUmKD4n9heIJP_1bM5A_iz",
+    "url": "https://drive.google.com/drive/folders/131CtiaS6tJyUmKD4n9heIJP_1bM5A_iz",
+    "subFolders": {
+      "06_Archive": {
+        "name": "06_Archive",
+        "id": "1yQRrM_oOzMcs9Oo_IeYnObTA7OqbxH7T",
+        "url": "https://drive.google.com/drive/folders/1yQRrM_oOzMcs9Oo_IeYnObTA7OqbxH7T",
+        "subFolders": {
+          "Legal": {
+            "name": "Legal",
+            "id": "1ic7T5YOcycbimi4pKZ7saCICKv9o4YBK",
+            "url": "https://drive.google.com/drive/folders/1ic7T5YOcycbimi4pKZ7saCICKv9o4YBK",
+            "subFolders": {},
+            "files": {}
+          },
+          "Backup": {
+            "name": "Backup",
+            "id": "1e10pQlULt9V1rS_rOI4cY6S_qSQeNs3O",
+            "url": "https://drive.google.com/drive/folders/1e10pQlULt9V1rS_rOI4cY6S_qSQeNs3O",
+            "subFolders": {},
+            "files": {}
+          },
+          "Final-Masters": {
+            "name": "Final-Masters",
+            "id": "1drh0hFxHQacrJqZvo8WKqa3NfLlHnjTR",
+            "url": "https://drive.google.com/drive/folders/1drh0hFxHQacrJqZvo8WKqa3NfLlHnjTR",
+            "subFolders": {},
+            "files": {}
+          }
+        },
+        "files": {}
+      },
+      "02_Production": {
+        "name": "02_Production",
+        "id": "1fwjYlkvNogP1cBcYaZDIJ70hYY-LfXLc",
+        "url": "https://drive.google.com/drive/folders/1fwjYlkvNogP1cBcYaZDIJ70hYY-LfXLc",
+        "subFolders": {
+          "Production-Notes": {
+            "name": "Production-Notes",
+            "id": "16vMWDfWLpQIWYni7z6lJs0_iUVS_FHNW",
+            "url": "https://drive.google.com/drive/folders/16vMWDfWLpQIWYni7z6lJs0_iUVS_FHNW",
+            "subFolders": {},
+            "files": {
+              "technical_issues": {
+                "name": "technical_issues",
+                "id": "1rFQ-NQChl1qmJnd-4tcyWwD26UjWCStdQqyS0JtShcQ",
+                "url": "https://docs.google.com/document/d/1rFQ-NQChl1qmJnd-4tcyWwD26UjWCStdQqyS0JtShcQ/edit?usp=drivesdk",
+                "path": "My Test Copy Folder/02_Production/Production-Notes",
+                "folderId": "16vMWDfWLpQIWYni7z6lJs0_iUVS_FHNW",
+                "size": 1,
+                "mimeType": "application/vnd.google-apps.document",
+                "createdTime": "2025-11-16T13:31:03.998Z"
+              },
+              "segment_markers": {
+                "name": "segment_markers",
+                "id": "1W6SyTBmiYvpPMTw6nsb5G4bD-BD2bGLRzTAHOjZsWiQ",
+                "url": "https://docs.google.com/spreadsheets/d/1W6SyTBmiYvpPMTw6nsb5G4bD-BD2bGLRzTAHOjZsWiQ/edit?usp=drivesdk",
+                "path": "My Test Copy Folder/02_Production/Production-Notes",
+                "folderId": "16vMWDfWLpQIWYni7z6lJs0_iUVS_FHNW",
+                "size": 1,
+                "mimeType": "application/vnd.google-apps.spreadsheet",
+                "createdTime": "2025-11-16T13:31:06.427Z"
+              },
+              "recording_log": {
+                "name": "recording_log",
+                "id": "1nHhb49WGZ4HSqb_06qzFbbrSiyLmV-eM32CRqx4bseY",
+                "url": "https://docs.google.com/document/d/1nHhb49WGZ4HSqb_06qzFbbrSiyLmV-eM32CRqx4bseY/edit?usp=drivesdk",
+                "path": "My Test Copy Folder/02_Production/Production-Notes",
+                "folderId": "16vMWDfWLpQIWYni7z6lJs0_iUVS_FHNW",
+                "size": 1,
+                "mimeType": "application/vnd.google-apps.document",
+                "createdTime": "2025-11-16T13:31:08.797Z"
+              }
+            }
+          },
+          "Photos": {
+            "name": "Photos",
+            "id": "1pmpMjzEECW4VrTN1fuSmThBWqUOtQ777",
+            "url": "https://drive.google.com/drive/folders/1pmpMjzEECW4VrTN1fuSmThBWqUOtQ777",
+            "subFolders": {
+              "BTS_shots": {
+                "name": "BTS_shots",
+                "id": "12p-PXCTH71qyrktBzQ3VGuhIMLc1aV6V",
+                "url": "https://drive.google.com/drive/folders/12p-PXCTH71qyrktBzQ3VGuhIMLc1aV6V",
+                "subFolders": {},
+                "files": {}
+              },
+              "guest_host_photos": {
+                "name": "guest_host_photos",
+                "id": "1zZUT3Ptg7r8tqFVqnSVBP6AsF3__Aulw",
+                "url": "https://drive.google.com/drive/folders/1zZUT3Ptg7r8tqFVqnSVBP6AsF3__Aulw",
+                "subFolders": {},
+                "files": {}
+              }
+            },
+            "files": {}
+          },
+          "RAW-Footage": {
+            "name": "RAW-Footage",
+            "id": "1vHQe5F5jg0o6R-aGLfMPnB0O1APwkTQD",
+            "url": "https://drive.google.com/drive/folders/1vHQe5F5jg0o6R-aGLfMPnB0O1APwkTQD",
+            "subFolders": {
+              "Riverside-Backup": {
+                "name": "Riverside-Backup",
+                "id": "1nHz9a9U-kBPmSAREtSj_kVIRc-aKVflH",
+                "url": "https://drive.google.com/drive/folders/1nHz9a9U-kBPmSAREtSj_kVIRc-aKVflH",
+                "subFolders": {},
+                "files": {}
+              },
+              "Video": {
+                "name": "Video",
+                "id": "1O6cA0ZeaDH81UaRakOkLLk-sfXDkV7aA",
+                "url": "https://drive.google.com/drive/folders/1O6cA0ZeaDH81UaRakOkLLk-sfXDkV7aA",
+                "subFolders": {},
+                "files": {}
+              },
+              "Audio": {
+                "name": "Audio",
+                "id": "1kKPYX-2kNhqaPnAOTSrLMx3VGY9s2vNp",
+                "url": "https://drive.google.com/drive/folders/1kKPYX-2kNhqaPnAOTSrLMx3VGY9s2vNp",
+                "subFolders": {},
+                "files": {}
+              }
+            },
+            "files": {}
+          }
+        },
+        "files": {}
+      },
+      "01_Pre-Production": {
+        "name": "01_Pre-Production",
+        "id": "1_oUU00_EU3lSL_en90bSlbL_HzV7T3u2",
+        "url": "https://drive.google.com/drive/folders/1_oUU00_EU3lSL_en90bSlbL_HzV7T3u2",
+        "subFolders": {
+          "Contracts": {
+            "name": "Contracts",
+            "id": "1ppRIIs2kw3ibJIeLLEWd1ltoOQCP3VWE",
+            "url": "https://drive.google.com/drive/folders/1ppRIIs2kw3ibJIeLLEWd1ltoOQCP3VWE",
+            "subFolders": {},
+            "files": {}
+          },
+          "Show-Notes": {
+            "name": "Show-Notes",
+            "id": "1Hu0GOa5PIvDOL7DdQLEYQ3XMiKkrdjBd",
+            "url": "https://drive.google.com/drive/folders/1Hu0GOa5PIvDOL7DdQLEYQ3XMiKkrdjBd",
+            "subFolders": {
+              "draft_versions": {
+                "name": "draft_versions",
+                "id": "1hezVGHWPFmWiEfV9q6u7xu9S8tMfWw5I",
+                "url": "https://drive.google.com/drive/folders/1hezVGHWPFmWiEfV9q6u7xu9S8tMfWw5I",
+                "subFolders": {},
+                "files": {}
+              }
+            },
+            "files": {}
+          },
+          "Guest-Research": {
+            "name": "Guest-Research",
+            "id": "1vQa6PQic8o89pt-FnDoPvoCIpzKcW0mJ",
+            "url": "https://drive.google.com/drive/folders/1vQa6PQic8o89pt-FnDoPvoCIpzKcW0mJ",
+            "subFolders": {},
+            "files": {
+              "Henry's Thoughts / Notes": {
+                "name": "Henry's Thoughts / Notes",
+                "id": "1fBkNuBPzmEDl1jCwNOw7SfYHAyq3_KVG-OX53Z0i4qE",
+                "url": "https://docs.google.com/document/d/1fBkNuBPzmEDl1jCwNOw7SfYHAyq3_KVG-OX53Z0i4qE/edit?usp=drivesdk",
+                "path": "My Test Copy Folder/01_Pre-Production/Guest-Research",
+                "folderId": "1vQa6PQic8o89pt-FnDoPvoCIpzKcW0mJ",
+                "size": 1,
+                "mimeType": "application/vnd.google-apps.document",
+                "createdTime": "2025-11-16T13:31:16.118Z"
+              }
+            }
+          },
+          "Scheduling": {
+            "name": "Scheduling",
+            "id": "1Np8XBVGMYoA4qPRJMhVMzzcpX-BJqvet",
+            "url": "https://drive.google.com/drive/folders/1Np8XBVGMYoA4qPRJMhVMzzcpX-BJqvet",
+            "subFolders": {},
+            "files": {}
+          }
+        },
+        "files": {}
+      },
+      "05_Analytics": {
+        "name": "05_Analytics",
+        "id": "1jinpgqvWfoJNuGCwkCHNU4i6rtyyVTEc",
+        "url": "https://drive.google.com/drive/folders/1jinpgqvWfoJNuGCwkCHNU4i6rtyyVTEc",
+        "subFolders": {
+          "Platform-Stats": {
+            "name": "Platform-Stats",
+            "id": "14SUeUIiAu6i2bpcVCiCa3oEjNZsRgFLG",
+            "url": "https://drive.google.com/drive/folders/14SUeUIiAu6i2bpcVCiCa3oEjNZsRgFLG",
+            "subFolders": {},
+            "files": {}
+          },
+          "Social-Performance": {
+            "name": "Social-Performance",
+            "id": "1zl24-AduPHxbuY5tJ43WZyqT67gtPJrx",
+            "url": "https://drive.google.com/drive/folders/1zl24-AduPHxbuY5tJ43WZyqT67gtPJrx",
+            "subFolders": {},
+            "files": {}
+          },
+          "Reports": {
+            "name": "Reports",
+            "id": "1k8JR46vLR_-HXUAy4MA26uCFIm_gR8jp",
+            "url": "https://drive.google.com/drive/folders/1k8JR46vLR_-HXUAy4MA26uCFIm_gR8jp",
+            "subFolders": {},
+            "files": {}
+          }
+        },
+        "files": {}
+      },
+      "03_Post-Production": {
+        "name": "03_Post-Production",
+        "id": "1FJ19MScnystGIvDLjIU6yFhsl3UIs2CO",
+        "url": "https://drive.google.com/drive/folders/1FJ19MScnystGIvDLjIU6yFhsl3UIs2CO",
+        "subFolders": {
+          "Transcripts": {
+            "name": "Transcripts",
+            "id": "1VS_6jDQk0yAnxty1lnbDjEG4Bw8tRk56",
+            "url": "https://drive.google.com/drive/folders/1VS_6jDQk0yAnxty1lnbDjEG4Bw8tRk56",
+            "subFolders": {},
+            "files": {
+              "transcript_edited": {
+                "name": "transcript_edited",
+                "id": "1WGBmmy7XZm76jBf7jqQKCfLwNUEkuuiRlgkREX9wBzU",
+                "url": "https://docs.google.com/document/d/1WGBmmy7XZm76jBf7jqQKCfLwNUEkuuiRlgkREX9wBzU/edit?usp=drivesdk",
+                "path": "My Test Copy Folder/03_Post-Production/Transcripts",
+                "folderId": "1VS_6jDQk0yAnxty1lnbDjEG4Bw8tRk56",
+                "size": 1,
+                "mimeType": "application/vnd.google-apps.document",
+                "createdTime": "2025-11-16T13:31:21.074Z"
+              },
+              "timestamps": {
+                "name": "timestamps",
+                "id": "1EsHuNQaTmeyNouRwSf5h2bYK0_vgwE4Rl_ZEFkxyUzw",
+                "url": "https://docs.google.com/spreadsheets/d/1EsHuNQaTmeyNouRwSf5h2bYK0_vgwE4Rl_ZEFkxyUzw/edit?usp=drivesdk",
+                "path": "My Test Copy Folder/03_Post-Production/Transcripts",
+                "folderId": "1VS_6jDQk0yAnxty1lnbDjEG4Bw8tRk56",
+                "size": 1,
+                "mimeType": "application/vnd.google-apps.spreadsheet",
+                "createdTime": "2025-11-16T13:31:23.369Z"
+              },
+              "full_transcript_raw": {
+                "name": "full_transcript_raw",
+                "id": "1AB9am-YsCtvaUwLtsvFWz1coHrYrTtk_IAFbIYNJtPg",
+                "url": "https://docs.google.com/document/d/1AB9am-YsCtvaUwLtsvFWz1coHrYrTtk_IAFbIYNJtPg/edit?usp=drivesdk",
+                "path": "My Test Copy Folder/03_Post-Production/Transcripts",
+                "folderId": "1VS_6jDQk0yAnxty1lnbDjEG4Bw8tRk56",
+                "size": 1,
+                "mimeType": "application/vnd.google-apps.document",
+                "createdTime": "2025-11-16T13:31:25.612Z"
+              }
+            }
+          },
+          "Project-Files": {
+            "name": "Project-Files",
+            "id": "11hw6KzjSDofJ5iQl1j6Js4oNceSAMtXn",
+            "url": "https://drive.google.com/drive/folders/11hw6KzjSDofJ5iQl1j6Js4oNceSAMtXn",
+            "subFolders": {
+              "Auto-Saves": {
+                "name": "Auto-Saves",
+                "id": "1e-SmXlkNbZ1vqOH5L_Mzv79vkREcnht6",
+                "url": "https://drive.google.com/drive/folders/1e-SmXlkNbZ1vqOH5L_Mzv79vkREcnht6",
+                "subFolders": {},
+                "files": {}
+              }
+            },
+            "files": {}
+          },
+          "Exports": {
+            "name": "Exports",
+            "id": "1IpQqBuO0QaYceOTWl4eY7wBLvNAkKCFI",
+            "url": "https://drive.google.com/drive/folders/1IpQqBuO0QaYceOTWl4eY7wBLvNAkKCFI",
+            "subFolders": {
+              "Clips": {
+                "name": "Clips",
+                "id": "1JY3GEkz-x2it5BOqNlWUNoe_rEhVSN6p",
+                "url": "https://drive.google.com/drive/folders/1JY3GEkz-x2it5BOqNlWUNoe_rEhVSN6p",
+                "subFolders": {
+                  "Horizontal-Clips": {
+                    "name": "Horizontal-Clips",
+                    "id": "1zuPhuKJCqU91--G7tas5Mi-UQbGORjwG",
+                    "url": "https://drive.google.com/drive/folders/1zuPhuKJCqU91--G7tas5Mi-UQbGORjwG",
+                    "subFolders": {},
+                    "files": {}
+                  },
+                  "Vertical-Clips": {
+                    "name": "Vertical-Clips",
+                    "id": "1AC5fksaQsT0SvZtjPp9Tb8TPfcvOFouy",
+                    "url": "https://drive.google.com/drive/folders/1AC5fksaQsT0SvZtjPp9Tb8TPfcvOFouy",
+                    "subFolders": {},
+                    "files": {}
+                  },
+                  "Square-Clips": {
+                    "name": "Square-Clips",
+                    "id": "1kqn0UukqUx04liqAZSuMPCkcCsGqDsnT",
+                    "url": "https://drive.google.com/drive/folders/1kqn0UukqUx04liqAZSuMPCkcCsGqDsnT",
+                    "subFolders": {},
+                    "files": {}
+                  }
+                },
+                "files": {}
+              },
+              "Audio-Clips": {
+                "name": "Audio-Clips",
+                "id": "1jWSHrfoiwSqovHIz2JM7GM23kouDM5Jk",
+                "url": "https://drive.google.com/drive/folders/1jWSHrfoiwSqovHIz2JM7GM23kouDM5Jk",
+                "subFolders": {
+                  "audiogram_clips": {
+                    "name": "audiogram_clips",
+                    "id": "1pPMYtWl58GEqGyeBz2D_7onrDJt6qTsJ",
+                    "url": "https://drive.google.com/drive/folders/1pPMYtWl58GEqGyeBz2D_7onrDJt6qTsJ",
+                    "subFolders": {},
+                    "files": {}
+                  }
+                },
+                "files": {}
+              },
+              "Full-Episode": {
+                "name": "Full-Episode",
+                "id": "1oR4XD-VY57BAnmIfiHuiGPR6zHC9i5fr",
+                "url": "https://drive.google.com/drive/folders/1oR4XD-VY57BAnmIfiHuiGPR6zHC9i5fr",
+                "subFolders": {},
+                "files": {}
+              }
+            },
+            "files": {}
+          },
+          "Color-Grade": {
+            "name": "Color-Grade",
+            "id": "1c1HjE-pYgVq7AT4oK6ubdP8tQibXZwTi",
+            "url": "https://drive.google.com/drive/folders/1c1HjE-pYgVq7AT4oK6ubdP8tQibXZwTi",
+            "subFolders": {},
+            "files": {}
+          },
+          "Graphics": {
+            "name": "Graphics",
+            "id": "1aLOYoSQuEJd6LBucca-C9HjWbyjiFcOl",
+            "url": "https://drive.google.com/drive/folders/1aLOYoSQuEJd6LBucca-C9HjWbyjiFcOl",
+            "subFolders": {
+              "quote_cards": {
+                "name": "quote_cards",
+                "id": "1M8MsQ-GXPHi8HubKjLR-R-f2Cvo9BBTm",
+                "url": "https://drive.google.com/drive/folders/1M8MsQ-GXPHi8HubKjLR-R-f2Cvo9BBTm",
+                "subFolders": {},
+                "files": {}
+              }
+            },
+            "files": {}
+          }
+        },
+        "files": {}
+      },
+      "04_Publishing": {
+        "name": "04_Publishing",
+        "id": "10xnjvUATdLGio44O-fyDQTaFnd1j-cb5",
+        "url": "https://drive.google.com/drive/folders/10xnjvUATdLGio44O-fyDQTaFnd1j-cb5",
+        "subFolders": {
+          "Descriptions": {
+            "name": "Descriptions",
+            "id": "1aTX-Y9lG7JRqmCOe7Q2GCstp-m5WDYq7",
+            "url": "https://drive.google.com/drive/folders/1aTX-Y9lG7JRqmCOe7Q2GCstp-m5WDYq7",
+            "subFolders": {},
+            "files": {
+              "youtube_description": {
+                "name": "youtube_description",
+                "id": "1mAgeDcEvam7UF8JBjxISkeKHjzH7dVT85TxTuiG7v64",
+                "url": "https://docs.google.com/document/d/1mAgeDcEvam7UF8JBjxISkeKHjzH7dVT85TxTuiG7v64/edit?usp=drivesdk",
+                "path": "My Test Copy Folder/04_Publishing/Descriptions",
+                "folderId": "1aTX-Y9lG7JRqmCOe7Q2GCstp-m5WDYq7",
+                "size": 1,
+                "mimeType": "application/vnd.google-apps.document",
+                "createdTime": "2025-11-16T13:31:33.190Z"
+              },
+              "timestamps_chapters": {
+                "name": "timestamps_chapters",
+                "id": "1G5fOlp9y7E6SRVDYsvecBQIMhHnwy9rV0sMuF8gJMxU",
+                "url": "https://docs.google.com/document/d/1G5fOlp9y7E6SRVDYsvecBQIMhHnwy9rV0sMuF8gJMxU/edit?usp=drivesdk",
+                "path": "My Test Copy Folder/04_Publishing/Descriptions",
+                "folderId": "1aTX-Y9lG7JRqmCOe7Q2GCstp-m5WDYq7",
+                "size": 1,
+                "mimeType": "application/vnd.google-apps.document",
+                "createdTime": "2025-11-16T13:31:35.886Z"
+              },
+              "SEO_keywords": {
+                "name": "SEO_keywords",
+                "id": "1zBatE8RAEkLyOHc58ITnINPJyLTHWFmieRgN_q0AmJM",
+                "url": "https://docs.google.com/document/d/1zBatE8RAEkLyOHc58ITnINPJyLTHWFmieRgN_q0AmJM/edit?usp=drivesdk",
+                "path": "My Test Copy Folder/04_Publishing/Descriptions",
+                "folderId": "1aTX-Y9lG7JRqmCOe7Q2GCstp-m5WDYq7",
+                "size": 1,
+                "mimeType": "application/vnd.google-apps.document",
+                "createdTime": "2025-11-16T13:31:38.116Z"
+              },
+              "spotify_description": {
+                "name": "spotify_description",
+                "id": "15qzwmRLZv1slRZ4-Tmbf3rRvxTJk7Ekxm7wvY02rLWA",
+                "url": "https://docs.google.com/document/d/15qzwmRLZv1slRZ4-Tmbf3rRvxTJk7Ekxm7wvY02rLWA/edit?usp=drivesdk",
+                "path": "My Test Copy Folder/04_Publishing/Descriptions",
+                "folderId": "1aTX-Y9lG7JRqmCOe7Q2GCstp-m5WDYq7",
+                "size": 1,
+                "mimeType": "application/vnd.google-apps.document",
+                "createdTime": "2025-11-16T13:31:40.788Z"
+              },
+              "apple_podcasts": {
+                "name": "apple_podcasts",
+                "id": "1Xpatc7nBK86MPjkeF72Y5gxOhpQUp3mIwBkMZ3vdqXU",
+                "url": "https://docs.google.com/document/d/1Xpatc7nBK86MPjkeF72Y5gxOhpQUp3mIwBkMZ3vdqXU/edit?usp=drivesdk",
+                "path": "My Test Copy Folder/04_Publishing/Descriptions",
+                "folderId": "1aTX-Y9lG7JRqmCOe7Q2GCstp-m5WDYq7",
+                "size": 1,
+                "mimeType": "application/vnd.google-apps.document",
+                "createdTime": "2025-11-16T13:31:43.680Z"
+              }
+            }
+          },
+          "Thumbnails": {
+            "name": "Thumbnails",
+            "id": "1FSuhYy1Jkf0bvvJOc8yMmBJHzK9zp1Zi",
+            "url": "https://drive.google.com/drive/folders/1FSuhYy1Jkf0bvvJOc8yMmBJHzK9zp1Zi",
+            "subFolders": {
+              "platform_specific": {
+                "name": "platform_specific",
+                "id": "1FTvRv2PgPPONv213F75zGWnQ0f4xqGdk",
+                "url": "https://drive.google.com/drive/folders/1FTvRv2PgPPONv213F75zGWnQ0f4xqGdk",
+                "subFolders": {},
+                "files": {}
+              }
+            },
+            "files": {}
+          },
+          "Email": {
+            "name": "Email",
+            "id": "1FqbiANoxV3sMrbcvje33ZiJifrj37xoy",
+            "url": "https://drive.google.com/drive/folders/1FqbiANoxV3sMrbcvje33ZiJifrj37xoy",
+            "subFolders": {},
+            "files": {}
+          },
+          "Social-Media": {
+            "name": "Social-Media",
+            "id": "1fWtRR5nIUB3BIqVo_ebEzDfudwSEaLpl",
+            "url": "https://drive.google.com/drive/folders/1fWtRR5nIUB3BIqVo_ebEzDfudwSEaLpl",
+            "subFolders": {
+              "Follow-Up": {
+                "name": "Follow-Up",
+                "id": "16HBDMN2GPANoho1ePAhHNQjFzWy71kIl",
+                "url": "https://drive.google.com/drive/folders/16HBDMN2GPANoho1ePAhHNQjFzWy71kIl",
+                "subFolders": {},
+                "files": {
+                  "week_later_best_clip": {
+                    "name": "week_later_best_clip",
+                    "id": "1bHZ9NcUyJ37XSzpCcW6oUmMscQB3COSPMPBHIiimY3g",
+                    "url": "https://docs.google.com/document/d/1bHZ9NcUyJ37XSzpCcW6oUmMscQB3COSPMPBHIiimY3g/edit?usp=drivesdk",
+                    "path": "My Test Copy Folder/04_Publishing/Social-Media/Follow-Up",
+                    "folderId": "16HBDMN2GPANoho1ePAhHNQjFzWy71kIl",
+                    "size": 1,
+                    "mimeType": "application/vnd.google-apps.document",
+                    "createdTime": "2025-11-16T13:31:47.849Z"
+                  },
+                  "day_3_promo": {
+                    "name": "day_3_promo",
+                    "id": "1lyBEfRQ0bt2syra4SH479Pez2KV07EAfk88QntkCXKY",
+                    "url": "https://docs.google.com/document/d/1lyBEfRQ0bt2syra4SH479Pez2KV07EAfk88QntkCXKY/edit?usp=drivesdk",
+                    "path": "My Test Copy Folder/04_Publishing/Social-Media/Follow-Up",
+                    "folderId": "16HBDMN2GPANoho1ePAhHNQjFzWy71kIl",
+                    "size": 1,
+                    "mimeType": "application/vnd.google-apps.document",
+                    "createdTime": "2025-11-16T13:31:50.045Z"
+                  }
+                }
+              },
+              "Launch-Day": {
+                "name": "Launch-Day",
+                "id": "1y2PMEkyAf-d_wnJZn5rRezXMOxyUWyfH",
+                "url": "https://drive.google.com/drive/folders/1y2PMEkyAf-d_wnJZn5rRezXMOxyUWyfH",
+                "subFolders": {
+                  "stories_sequence": {
+                    "name": "stories_sequence",
+                    "id": "1ah3CmBJMQoE2Rdog1-5XewtSMu0Kr5JB",
+                    "url": "https://drive.google.com/drive/folders/1ah3CmBJMQoE2Rdog1-5XewtSMu0Kr5JB",
+                    "subFolders": {},
+                    "files": {}
+                  },
+                  "instagram_carousel": {
+                    "name": "instagram_carousel",
+                    "id": "1Wv93pxAiR91P70Oy1h5WCkiiz5j8C7UO",
+                    "url": "https://drive.google.com/drive/folders/1Wv93pxAiR91P70Oy1h5WCkiiz5j8C7UO",
+                    "subFolders": {},
+                    "files": {}
+                  }
+                },
+                "files": {
+                  "twitter_thread": {
+                    "name": "twitter_thread",
+                    "id": "1NKtbS_rjYkcWgNCoMGXWrQ3V46hfY-uuWSR4631NONI",
+                    "url": "https://docs.google.com/document/d/1NKtbS_rjYkcWgNCoMGXWrQ3V46hfY-uuWSR4631NONI/edit?usp=drivesdk",
+                    "path": "My Test Copy Folder/04_Publishing/Social-Media/Launch-Day",
+                    "folderId": "1y2PMEkyAf-d_wnJZn5rRezXMOxyUWyfH",
+                    "size": 1,
+                    "mimeType": "application/vnd.google-apps.document",
+                    "createdTime": "2025-11-16T13:31:52.851Z"
+                  },
+                  "linkedin_post": {
+                    "name": "linkedin_post",
+                    "id": "103SPYwpZcGq-jn4G4rANRnb9gMFNdME7ZTxIGyJd3ZQ",
+                    "url": "https://docs.google.com/document/d/103SPYwpZcGq-jn4G4rANRnb9gMFNdME7ZTxIGyJd3ZQ/edit?usp=drivesdk",
+                    "path": "My Test Copy Folder/04_Publishing/Social-Media/Launch-Day",
+                    "folderId": "1y2PMEkyAf-d_wnJZn5rRezXMOxyUWyfH",
+                    "size": 1,
+                    "mimeType": "application/vnd.google-apps.document",
+                    "createdTime": "2025-11-16T13:31:54.997Z"
+                  }
+                }
+              }
+            },
+            "files": {}
+          }
+        },
+        "files": {}
+      }
+    },
+    "files": {
+      "_EPISODE_STATUS": {
+        "name": "_EPISODE_STATUS",
+        "id": "1w-zCjcmLOekJkvtspdBjT374ck6r9SAmSHk67pnz40A",
+        "url": "https://docs.google.com/document/d/1w-zCjcmLOekJkvtspdBjT374ck6r9SAmSHk67pnz40A/edit?usp=drivesdk",
+        "path": "My Test Copy Folder",
+        "folderId": "131CtiaS6tJyUmKD4n9heIJP_1bM5A_iz",
+        "size": 1,
+        "mimeType": "application/vnd.google-apps.document",
+        "createdTime": "2025-11-16T13:30:59.357Z"
+      },
+      "_folder_structure_report.json": {
+        "name": "_folder_structure_report.json",
+        "id": "1hvFroL5M6Nm93-yWdYF6heiMs_hPJIde",
+        "url": "https://drive.google.com/file/d/1hvFroL5M6Nm93-yWdYF6heiMs_hPJIde/view?usp=drivesdk",
+        "path": "My Test Copy Folder",
+        "folderId": "131CtiaS6tJyUmKD4n9heIJP_1bM5A_iz",
+        "size": 0,
+        "mimeType": "application/json",
+        "createdTime": "2025-11-16T13:31:58.729Z"
+      }
+    }
+  },
+  "errors": []
+}
