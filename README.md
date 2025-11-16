@@ -33,7 +33,7 @@ This script is a powerful "workaround" for the limitations of no-code automation
 
 
 1. Go to [script.google.com](https://script.google.com) and create a new project (e.g., "Drive Folder Copier").
-2. Copy the *entire* contents of `CopyFolderStructure.gs` and paste it into the editor.
+2. Copy the *entire* contents of `main.gs` and paste it into the editor.
 
 
 ### 2. Set Your API Key (Required)
