@@ -67,6 +67,8 @@ function runManually_setupTrigger() {
   }
 
   // Create a new trigger that runs 'processJobQueue' every 1 minute.
+  // You can change 'everyMinutes(1)' to 'everyMinutes(5)' or 'everyHours(1)'
+  // to trade responsiveness for lower quota usage.
   ScriptApp.newTrigger('processJobQueue')
     .timeBased()
     .everyMinutes(1)
@@ -95,6 +97,7 @@ function runManually_removeTrigger() {
     Logger.log('No 1-minute trigger found for "processJobQueue".');
   }
 }
+
 
 // --- WEB APP ENDPOINT (API) ---
 
@@ -383,7 +386,7 @@ function sendCallback(callbackUrl, payload) {
  * @returns {string} JSON string containing the copy results.
  */
 function copyFolderStructure(sourceFolderId, destinationFolderId, newFolderName, saveJsonOutput) {
-  var startTime = new Date();
+  var startTime = new Date(); // <-- START TIME
   var success = true;
   var errors = [];
   var folderIdMap = {}; // Maps new folder IDs to their node in the structure
@@ -392,6 +395,8 @@ function copyFolderStructure(sourceFolderId, destinationFolderId, newFolderName,
   var mainFolderId;
   var mainFolderName;
   var destinationFolder;
+  var reportFile = null; // Stays null if saveJsonOutput is false
+  var reportFileName = CONFIG.JSON_REPORT_FILENAME;
 
   try {
     var sourceFolder = DriveApp.getFolderById(sourceFolderId);
@@ -442,28 +447,22 @@ function copyFolderStructure(sourceFolderId, destinationFolderId, newFolderName,
       totalFiles: totalFiles,
       totalSize: totalSize,
       totalSizeHuman: formatBytes(totalSize),
-      folderCount: Object.keys(folderIdMap).length
+      folderCount: Object.keys(folderIdMap).length,
+      executionTime: null // Will be added at the end
     },
     folderStructure: folderStructure,
     errors: errors
   };
 
-  // --- SAVE JSON REPORT (FIXED LOGIC) ---
-  // This now uses a create-then-update pattern to ensure
-  // the JSON file contains its own metadata.
+  // --- SAVE JSON REPORT (Create-Then-Update Logic) ---
   
   if (saveJsonOutput && newFolder) {
-    var reportFile;
-    var reportFileInfo;
-    
     try {
-      var reportFileName = CONFIG.JSON_REPORT_FILENAME;
-      
       // 1. Create a placeholder file to get an ID and URL
       reportFile = newFolder.createFile(reportFileName, '{}', 'application/json');
       
       // 2. Get the new report file's info
-      reportFileInfo = {
+      var reportFileInfo = {
         name: reportFile.getName(),
         id: reportFile.getId(),
         url: reportFile.getUrl(),
@@ -483,28 +482,52 @@ function copyFolderStructure(sourceFolderId, destinationFolderId, newFolderName,
       var newTotalSize = createdFiles.reduce((sum, file) => sum + file.size, 0);
       returnData.summary.totalSize = newTotalSize;
       returnData.summary.totalSizeHuman = formatBytes(newTotalSize);
-      
-      // 5. Now, stringify the *final* data
+
+    } catch (e) {
+      var saveError = "Failed to create placeholder JSON report: " + e.message;
+      console.error(saveError);
+      returnData.errors.push(saveError);
+      returnData.success = false; // Mark as false if saving the report fails
+    }
+  }
+
+  // --- FINALISE EXECUTION TIME ---
+  // Do this *before* the final write, so it's *in* the saved file.
+  var endTime = new Date();
+  var executionTimeMs = endTime.getTime() - startTime.getTime();
+  var executionTimeSeconds = (executionTimeMs / 1000).toFixed(2);
+  returnData.summary.executionTime = executionTimeSeconds + ' seconds';
+  
+  // --- FINAL JSON WRITE ---
+  // Now that we have the exec time, update the report file with final content
+  if (saveJsonOutput && reportFile) {
+    try {
       var finalJsonContent = JSON.stringify(returnData, null, 2);
-      
-      // 6. Update the placeholder file with the final content
       reportFile.setContent(finalJsonContent);
       
-      // 7. Get the final size and update the returnData one last time
+      // And update the size in our response object
       var finalFileSize = reportFile.getSize();
       returnData.folderStructure.files[reportFileName].size = finalFileSize;
-      // Recalculate size *again* with the final file size
-      newTotalSize = createdFiles.reduce((sum, file) => {
+      
+      // Recalculate total size one last time
+      var newTotalSize = createdFiles.reduce((sum, file) => {
         return sum + (file.id === reportFile.getId() ? finalFileSize : file.size);
       }, 0);
       returnData.summary.totalSize = newTotalSize;
       returnData.summary.totalSizeHuman = formatBytes(newTotalSize);
-
+      
+      // Recalculate execution time *again* to be as accurate as possible
+      // for the API response (includes the file write time).
+      endTime = new Date();
+      executionTimeMs = endTime.getTime() - startTime.getTime();
+      executionTimeSeconds = (executionTimeMs / 1000).toFixed(2);
+      returnData.summary.executionTime = executionTimeSeconds + ' seconds';
+      
     } catch (e) {
-      var saveError = "Failed to save JSON report file: " + e.message;
+      var saveError = "Failed to write final content to JSON report: " + e.message;
       console.error(saveError);
       returnData.errors.push(saveError);
-      returnData.success = false; // Mark success as false if saving the report fails
+      returnData.success = false;
     }
   }
 
@@ -655,6 +678,8 @@ function formatBytes(bytes) {
   if (bytes === 0) return '0 Bytes';
   const k = 1024;
   const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
+  // Handle potential log(0) or negative bytes
+  if (bytes < 0) return '0 Bytes';
   const i = Math.floor(Math.log(bytes) / Math.log(k));
   return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
 }
